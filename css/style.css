@@ -32,6 +32,7 @@ main{
 
 aside{
     background-color: var(--aside-bg);
+    width: 400px;
 }
 
 .top-section{
@@ -49,7 +50,26 @@ aside{
 
 .nav-item:hover{
     background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.list-group-item:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+
+.list-group-item:hover{
+    background-color: #ececec;
+}
+
+.add-student{
     
+
+}
+
+.add-student:hover{
+    background-color: white;
+    color: var(--main-header-bg);
 }
 
 .accordion-item{
